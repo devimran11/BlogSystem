@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
-
+use GuzzleHttp\Psr7\Stream;
 class PostController extends Controller
 {
     /**
